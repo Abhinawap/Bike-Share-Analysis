@@ -26,7 +26,7 @@ palette_2_compare = get_hex('cacnea', keep=[False, True, True, False, False, Fal
 palette_1 = get_hex('cacnea', keep_first_n=1)[0]
 
 # Load data
-data_path = 'https://github.com/Abhinawap/Bike-Share-Analysis/raw/refs/heads/main/bike-sharing-dataset-cleaned.csv'
+data_path = 'https://raw.githubusercontent.com/Abhinawap/Bike-Share-Analysis/main/bike-sharing-dataset-cleaned'
 df = pd.read_csv(data_path)
 
 st.set_page_config(page_title="Bike Sharing Analysis Dashboard", layout="wide")
